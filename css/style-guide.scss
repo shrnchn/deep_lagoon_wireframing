@@ -1,0 +1,164 @@
+$blue: #4882C2;
+$lightblue: #ACD0F5;
+$teal: #5BDFE3;
+$aqua: #206F7C;
+$darkgreen: #284541;
+$lightgray: #e6e6e6;
+$black: #222;
+
+@mixin serifFont {
+  font-family: 'Fanwood Text', serif;
+  font-weight: 400;
+}
+@mixin sansSerifFont {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+} 
+
+p, ul li {
+  @include serifFont;
+  font-size: 1.25rem;
+}
+a {
+  color: $teal;
+  text-decoration: none;
+}
+h1 {
+  @include sansSerifFont;
+  font-size: 3rem;
+  line-height: 3.25rem;
+  color: $blue;
+}
+h2 {
+  @include sansSerifFont;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  color: $lightblue;
+}
+h3 {
+  @include sansSerifFont;
+  font-size: 1.65rem;
+  color: $aqua;
+}
+h4 {
+  @include sansSerifFont;
+  font-size: 1.5rem;
+  color: $darkgreen;
+}
+h5, h6 {
+  @include sansSerifFont;
+}
+blockquote {
+  @include serifFont;
+  color: $darkgreen;
+  font-size: 1.1rem;
+}
+form {
+  width: 500px;
+}
+input {
+  @include sansSerifFont;
+  font-size: 1rem;
+  width: 200px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+  margin: 10px;
+  color: $black;
+  background: $lightgray;
+  box-shadow: 0 3px 0 $blue;
+}
+input.button {
+  font-size: 1rem;
+  width: 100px;
+  background: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  color: $blue;
+  background: $lightgray;
+}
+textarea {
+  font-size: 1rem;
+  width: 300px;
+  height: 120px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+  margin: 10px;
+  background: $lightgray;
+  color: $black;
+  box-shadow: 0 3px 0 $blue;
+}
+textarea:focus, input:focus {
+  outline:0;
+}
+input.button:focus, input.button:hover  {
+  background: $lightblue;
+  color: white;
+  box-shadow: 0 3px 0 $blue;
+}
+.avatar {
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid $blue;
+}
+.button-big {
+  font-size: 1rem;
+  padding: 10px;
+  color: white;
+  background: $blue;
+  border-radius: 4px;
+}
+.button-small {
+  font-size: 0.75rem;
+  padding: 5px;
+  color: white;
+  background: $blue;
+  border-radius: 4px;
+}
+.button-inverse {
+  font-size: 1rem;
+  padding: 10px;
+  color: white;
+  background: $teal;
+  border-radius: 4px;
+}
+.section-title {
+  border-bottom: solid 1px #dedede;
+  padding-bottom: 0.5em;
+  margin-top: 2em;
+  color: black;
+}
+.label {
+  font-size: 14px;  
+  margin: 0.5em 0 2em;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.colours {
+  padding-left: 0;
+  list-style: none;
+}
+.colours li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.colours .swatch {
+  display: inline-block;
+  width: 70%;
+  height: 0;
+  padding-top: 70%;
+  border-radius: 50%
+}
+.typography {
+  max-width: 500px;
+}

@@ -1,0 +1,179 @@
+p, ul li {
+  font-family: 'Fanwood Text', serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #5bdfe3;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.25rem;
+  color: #4882c2;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  color: #acd0f5;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 1.65rem;
+  color: #206f7c;
+}
+
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #284541;
+}
+
+h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+
+blockquote {
+  font-family: 'Fanwood Text', serif;
+  font-weight: 400;
+  color: #284541;
+  font-size: 1.1rem;
+}
+
+form {
+  width: 500px;
+}
+
+input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 200px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+  margin: 10px;
+  color: #222222;
+  background: #e6e6e6;
+  box-shadow: 0 3px 0 #4882c2;
+}
+
+input.button {
+  font-size: 1rem;
+  width: 100px;
+  background: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  color: #4882c2;
+  background: #e6e6e6;
+}
+
+textarea {
+  font-size: 1rem;
+  width: 300px;
+  height: 120px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+  margin: 10px;
+  background: #e6e6e6;
+  color: #222222;
+  box-shadow: 0 3px 0 #4882c2;
+}
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input.button:focus, input.button:hover {
+  background: #acd0f5;
+  color: white;
+  box-shadow: 0 3px 0 #4882c2;
+}
+
+.avatar {
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid #4882c2;
+}
+
+.button-big {
+  font-size: 1rem;
+  padding: 10px;
+  color: white;
+  background: #4882c2;
+  border-radius: 4px;
+}
+
+.button-small {
+  font-size: 0.75rem;
+  padding: 5px;
+  color: white;
+  background: #4882c2;
+  border-radius: 4px;
+}
+
+.button-inverse {
+  font-size: 1rem;
+  padding: 10px;
+  color: white;
+  background: #5bdfe3;
+  border-radius: 4px;
+}
+
+.section-title {
+  border-bottom: solid 1px #dedede;
+  padding-bottom: 0.5em;
+  margin-top: 2em;
+  color: black;
+}
+
+.label {
+  font-size: 14px;
+  margin: 0.5em 0 2em;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.colours {
+  padding-left: 0;
+  list-style: none;
+}
+
+.colours li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.colours .swatch {
+  display: inline-block;
+  width: 70%;
+  height: 0;
+  padding-top: 70%;
+  border-radius: 50%;
+}
+
+.typography {
+  max-width: 500px;
+}
